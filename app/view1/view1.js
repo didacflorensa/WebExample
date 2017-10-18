@@ -30,7 +30,7 @@ angular.module('myApp.view1', ['ngRoute'])
     $scope.resp2 = rand_array[1];
     $scope.resp3 = rand_array[2];
     $scope.resp4 = rand_array[3];
-  }
+  };
 
   $scope.reset = function () {
       $scope.resp1 = "";
@@ -40,6 +40,6 @@ angular.module('myApp.view1', ['ngRoute'])
 
       array = [];
       array = ["", "Didac", "Andreu", "Jaume", "Ivan", "Maria", "Julia", "Llorenç S.", "Llorenç C."];
-  }
+  };
 
 }]);
